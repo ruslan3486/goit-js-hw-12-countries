@@ -12,10 +12,11 @@
     />
   </head>
   <body>
-    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <include src="./partials/example.html"></include>
+    <input id="searchContries" type="text" name="query" placeholder="Введите название страны" />
 
-    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+    <div class="js-card-container"></div>
+    <p class="text-error"></p>
+
     <script src="./index.js"></script>
   </body>
 </html>
